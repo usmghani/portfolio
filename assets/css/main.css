@@ -2293,20 +2293,6 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 480px) {
-    ul.actions:not(.fixed) {
-        display: flex;
-        flex-direction: column; /* Stack buttons vertically */
-        align-items: center;   /* Center-align buttons */
-    }
-
-    ul.actions:not(.fixed) li {
-        flex-grow: 0;          /* Don't stretch items unevenly */
-        flex-shrink: 0;        /* Keep the items fixed in size */
-        width: auto;           /* Let the button take natural width */
-        padding: 0.5em 0;      /* Adjust spacing between buttons */
-    }
-}
-
 
 					ul.actions:not(.fixed) li > * {
 						width: 100%;
